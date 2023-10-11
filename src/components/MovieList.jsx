@@ -33,11 +33,11 @@ export default function MovieList(props) {
       <MovieCard
         id={data.id}
         title={data.title}
-        path={data.poster_path}
+        path={data.image}
         key={data.id}
-        genreId={data.genre_ids}
+        genre={data.genre}
         date={data.release_date}
-        rating={data.vote_average}
+        rating={data.rating}
       />
     );
   });
