@@ -9,7 +9,7 @@ export default function Home() {
 
     // Use the useQRCode hook with the result state to generate the dataUrl
 
-    const data = useQRCode('https://movie-qr-frontend-pgxadu11s-deolaaxo-gmailcom.vercel.app/2938af');
+    const data = useQRCode('https://movie-qr-frontend.vercel.app/2938af');
     // useEffect(() => {
     //     setDataUrl(data);
     //     console.log('called ooo');
