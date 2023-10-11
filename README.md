@@ -1,5 +1,5 @@
-[Client Deployed Url](https://movie-qr-frontend.vercel.app/)
-[Server Deployed Url](https://qr-code-generator-nestjs-production.up.railway.app/)
+[Client Deployed Url](https://movie-qr-frontend.vercel.app/) \
+[Server Deployed Url](https://qr-code-generator-nestjs-production.up.railway.app/) \
 [Swagger Documentation](https://qr-code-generator-nestjs-production.up.railway.app/api)
 
 # Getting Started with Create React App
