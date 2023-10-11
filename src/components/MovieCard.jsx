@@ -24,7 +24,7 @@ export default function MovieCard(props) {
               }}
             />
 
-            {/* loader for image */}
+            {/* loader for images */}
             <div
               className={`${
                 hasLoaded ? "hidden" : "block"
