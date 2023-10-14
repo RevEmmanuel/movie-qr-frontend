@@ -8,7 +8,6 @@ export default function Home() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                console.log('called');
                 const response = await axios.get('https://qr-code-generator-nestjs-production.up.railway.app/qr-code');
                 setResults(response.data);
             } catch (error) {
@@ -40,7 +39,7 @@ export default function Home() {
     return (
         <div>
             <img src={result} alt="qr-code" />
-            <p>Reload in {reloadTimer} seconds</p>
+            <p>Reload in {reloadTimer} {reloadTimer === 1 ? 'second' : 'seconds'}</p>
         </div>
     );
 }
